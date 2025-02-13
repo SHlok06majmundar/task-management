@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build", // Keep this as is
     "start": "next start",
     "lint": "next lint",
     "heroku-postbuild": "next build"
