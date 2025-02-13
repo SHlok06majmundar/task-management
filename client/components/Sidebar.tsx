@@ -75,7 +75,7 @@ const Sidebar = () => {
                   className="w-full justify-start gap-2"
                 >
                   <LayoutGrid className="h-4 w-4" />
-                  Kanban View
+                  Shlok View
                 </Button>
               </DropdownMenuItem>
               <DropdownMenuItem

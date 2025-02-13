@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <div className="mb-4 flex items-center justify-between  ">
       <h2 className="text-xl text-nowrap md:text-2xl  font-bold dark:text-white">
-        {boardView === "list" ? "List View" : "Kanban Board View"}
+        {boardView === "list" ? "List View" : "Shlok Board View"}
       </h2>
       <Button size={`sm`} onClick={() => setIsAddModalOpen(true)}>
         <Plus className="mr-2 h-4 w-4" /> Add Task
